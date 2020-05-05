@@ -1,0 +1,12 @@
+@import '@style/vars/colors.scss';
+
+.Checkbox__check-icon {
+  margin: auto;
+  transform: scale(0);
+
+  font-size: 12px;
+  color: transparent;
+
+  transition: .1s all;
+  transition-delay: 0s;
+}

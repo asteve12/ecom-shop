@@ -1,0 +1,80 @@
+{
+  "Samsung": [
+    {
+      "id": "92e7c3d3-9114-4874-aa06-5fc7d65316cb",
+      "name": "Samsung Galaxy S20",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae esse laborum magnam id consequatur veniam repellat facilis dicta mollitia.",
+      "price": 1199,
+      "type": "touchscreen",
+      "img": "../assets/img/items/samsung-s20_phone.jpg",
+      "discount": 0,
+      "available": true
+    },
+    {
+      "id": "62c93bb4-6527-44f2-9b30-be9b8b9da217",
+      "name": "Samsung Galaxy S11 Lite",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae esse laborum magnam id consequatur veniam repellat facilis dicta mollitia.",
+      "price": 699,
+      "type": "touchscreen",
+      "img": "../assets/img/items/samsung-s10-lite_phone.jpg",
+      "discount": 0,
+      "available": true
+    }
+  ],
+  "Xiaomi": [
+    {
+      "id": "359ad8ea-bb22-47a9-ade0-de2d3c1cf177",
+      "name": "Xiaomi Redmi Note 8 Pro",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae esse laborum magnam id consequatur veniam repellat facilis dicta mollitia.",
+      "price": 249,
+      "type": "touchscreen",
+      "img": "../assets/img/items/xiaomi-redmi-note-8-pro_phone.jpg",
+      "discount": 0,
+      "available": true
+    },
+    {
+      "id": "a97abfb5-e041-4672-bc2c-e4b676dfcfc8",
+      "name": "Xiaomi Redmi Note 7",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae esse laborum magnam id consequatur veniam repellat facilis dicta mollitia.",
+      "price": 169,
+      "type": "touchscreen",
+      "img": "../assets/img/items/xiaomi-redmi-note-7_phone.jpg",
+      "discount": 0,
+      "available": true
+    }
+  ],
+  "Apple": [
+    {
+      "id": "77f9cc97-bbc0-44bd-8bcb-fd5115d54ac5",
+      "name": "iPhone XR",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae esse laborum magnam id consequatur veniam repellat facilis dicta mollitia.",
+      "price": 749,
+      "type": "touchscreen",
+      "img": "../assets/img/items/iphone-xr_phone.jpg",
+      "discount": 10,
+      "available": true
+    },
+    {
+      "id": "a600e42c-0df3-464f-989c-6fce65dcf7f6",
+      "name": "iPhone 11 Pro",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae esse laborum magnam id consequatur veniam repellat facilis dicta mollitia.",
+      "price": 1399,
+      "type": "touchscreen",
+      "img": "../assets/img/items/iphone-11pro_phone.jpg",
+      "discount": 0,
+      "available": true
+    }
+  ],
+  "FinePower": [
+    {
+      "id": "66844324-fa27-487a-99d7-9fedb2274a1a",
+      "name": "FinePower F1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae esse laborum magnam id consequatur veniam repellat facilis dicta mollitia.",
+      "price": 99,
+      "type": "buttons",
+      "img": "../assets/img/items/buttons_phone.jpg",
+      "discount": 0,
+      "available": true
+    }
+  ]
+}

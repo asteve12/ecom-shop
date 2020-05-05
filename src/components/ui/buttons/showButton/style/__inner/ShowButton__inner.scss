@@ -1,0 +1,21 @@
+@import '@style/vars/colors.scss';
+$border-size: 20px;
+
+.ShowButton__inner {
+  position: relative;
+  text-align: center;
+  height: 40px;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    box-sizing: border-box;
+    border-top: $border-size solid transparent;
+    border-right: 10px solid $main-color;
+    border-left: $border-size solid transparent;
+    border-bottom: $border-size solid transparent;
+  }
+}

@@ -1,0 +1,11 @@
+@import '@style/vars/colors.scss';
+
+.CheckoutForm__submit-button {
+  margin: auto;
+  padding: 0 15px;
+  min-width: 177px;
+  display: inline-block;
+  background-color: $main-color;
+  color: white;
+  flex-basis: initial;
+}

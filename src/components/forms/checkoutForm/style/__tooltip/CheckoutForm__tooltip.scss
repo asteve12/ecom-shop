@@ -1,0 +1,19 @@
+.CheckoutForm__tooltip {
+  position: absolute;
+  z-index: 100;
+  top: 55px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-weight: bold;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    border-top: 5px transparent solid;
+    border-bottom: 5px red solid;
+    border-left: 5px transparent solid;
+    border-right: 5px transparent solid;
+  }
+}

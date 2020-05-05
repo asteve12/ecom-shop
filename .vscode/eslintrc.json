@@ -1,0 +1,38 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "project": "tsconfig.json"
+  },
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:react/recommended"
+  ],
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "rules": {
+    "no-unused-vars": "off",
+    "typescript/no-unused-vars": ["off", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "linebreak-style": ["off", "windows"],
+    "react/jsx-one-expression-per-line": [0, { "allow": "none" }],
+    "max-len": 0,
+    "react/prefer-stateless-function": [0, { }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/no-unused-state": 0,
+    "react/prop-types": [0, { }],
+    "react/no-unescaped-entities": 0,
+    "guard-for-in": 0,
+    "no-restricted-syntax": 0,
+    "no-underscore-dangle": ["error", { "allowAfterThis": true, "allow": ["_id"] }],
+    "object-curly-newline": ["error", {
+      "ObjectPattern": { "multiline": true },
+      "ImportDeclaration": { "multiline": true, "minProperties": 5 },
+      "ExportDeclaration": { "multiline": true, "minProperties": 6 }
+    }],
+    "jsx-a11y/label-has-associated-control": [ 2, {
+      "labelAttributes": ["label"],
+      "controlComponents": ["TextInput"],
+      "depth": 3
+    }]
+  }
+}

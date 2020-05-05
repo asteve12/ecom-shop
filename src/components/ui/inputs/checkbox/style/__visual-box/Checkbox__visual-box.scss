@@ -1,0 +1,15 @@
+.Checkbox__visual-box {
+  height: 16px;
+  width: 16px;
+
+  box-sizing: border-box;
+  display: inline-flex;
+
+  cursor: pointer;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid black;
+
+  transition: .1s all;
+  transition-delay: .1s;
+}

@@ -1,0 +1,14 @@
+@import '@style/vars/colors.scss';
+
+.Checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+
+  transition: .2s all ease;
+
+  &:hover {
+    background-color: lighten($color: $main-color, $amount: 40)
+  }
+}

@@ -1,0 +1,7 @@
+@import '@style/vars/colors.scss';
+
+.ShowButton {
+  display: inline-block;
+  background-color: $main-color;
+  border-radius: 0 4px 4px 0;
+}

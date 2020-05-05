@@ -1,0 +1,13 @@
+.App__inner {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  max-width: 1200px;
+  min-height: 700px;
+
+  overflow-x: hidden;
+
+  display: flex;
+  flex-wrap: nowrap;
+}

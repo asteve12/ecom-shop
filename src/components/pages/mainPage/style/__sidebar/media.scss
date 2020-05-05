@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .MainPage__sidebar {
+    width: 320px;
+    position: absolute;
+    z-index: 1001;
+    top: 0;
+    right: -15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .MainPage__sidebar {
+    width: 100%;
+  }
+}

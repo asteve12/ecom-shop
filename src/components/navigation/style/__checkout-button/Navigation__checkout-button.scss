@@ -1,0 +1,14 @@
+@import '@style/vars/colors.scss';
+
+.Navigation__checkout-button {
+  display: block;
+  margin: 15px auto 0;
+  width: 100px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.5em;
+  color: white;
+  border-radius: 4px;
+  background-color: $main-color;
+}

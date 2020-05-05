@@ -1,0 +1,8 @@
+.ItemInCart__text-input {
+  line-height: 22px;
+  font-size: 1em;
+  padding: 0 5px;
+  text-align: right;
+
+  min-width: 0px; // We have to set this for Firefox
+}

@@ -1,0 +1,17 @@
+.ItemInCart__number-control {
+  display: flex;
+
+  padding: 0;
+  margin: 0 2px;
+  
+  flex-basis: 24px;
+  min-width: 24px;
+  height: 24px;
+  line-height: 1;
+
+  font-size: 1.1em;
+
+  border: 1px solid lightgrey;
+  box-shadow: none;
+  cursor: pointer;
+}

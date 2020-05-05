@@ -1,0 +1,14 @@
+.CloseButton {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+
+  background-color: transparent;
+  border: none;
+  
+  & svg {
+    transform: rotate(45deg) scale(2);
+  }
+}

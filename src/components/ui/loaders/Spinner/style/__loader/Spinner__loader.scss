@@ -1,0 +1,21 @@
+@import '@style/vars/colors.scss';
+
+.Spinner__loader {
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+	background: $main-color;
+  border-radius: 50%;
+
+  border: 2px solid $main-color;
+	border-bottom-color: #fff;
+	border-top-color: #fff;
+	animation: spinner 800ms ease infinite;
+}
+
+@keyframes spinner {
+	to {
+		transform: rotate(360deg);
+	}
+}

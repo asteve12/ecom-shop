@@ -1,0 +1,11 @@
+@import '@style/vars/shadows.scss';
+
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  background-color: #ffffff;
+  box-shadow: $main-block-shadow;
+  border-radius: 4px;
+}

@@ -1,0 +1,14 @@
+@media (min-width: 768.5px) {
+  .SideBar__close-button {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .SideBar__close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+}

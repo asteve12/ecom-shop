@@ -1,0 +1,7 @@
+@import '@style/vars/shadows.scss';
+
+.Cart {
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: $main-block-shadow;
+}

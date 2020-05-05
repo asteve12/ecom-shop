@@ -1,0 +1,37 @@
+@import '@style/vars/colors.scss';
+
+.Card__button {
+  align-self: flex-end;
+  width: 100%;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  line-height: 0.6em;
+  font-size: 0.6em;
+  cursor: pointer;
+  transition: .2s all ease;
+
+  &:hover {
+    color: white;
+    background-color: $main-hover-color;
+  }
+
+  &:active {
+    color: white;
+    background-color: $main-color;
+  }
+
+  &:disabled {
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: transparent;
+    }
+  
+    &:active {
+      background-color: transparent;
+    }
+  }
+}

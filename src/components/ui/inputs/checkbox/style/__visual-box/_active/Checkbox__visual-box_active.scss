@@ -1,0 +1,8 @@
+@import '@style/vars/colors.scss';
+
+.Checkbox__visual-box_active {
+  background-color: $main-color;
+  border: 1px solid transparent;
+
+  transition-delay: 0s;
+}

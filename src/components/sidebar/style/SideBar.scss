@@ -1,0 +1,8 @@
+@import '@style/vars/shadows.scss';
+
+.SideBar {
+  width: 250px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: $main-block-shadow;
+}

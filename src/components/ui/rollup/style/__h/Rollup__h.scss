@@ -1,0 +1,21 @@
+@import '@style/vars/colors.scss';
+
+.Rollup__h {
+  margin: 0;
+  padding: 0 0 0 35px;
+  position: relative;
+
+  cursor: pointer;
+
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 2.5em;
+
+  border-radius: 4px;
+
+  transition: .2s all ease;
+
+  &:hover {
+    background-color: lighten($color: $main-color, $amount: 40)
+  }
+}

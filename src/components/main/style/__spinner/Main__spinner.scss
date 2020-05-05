@@ -1,0 +1,9 @@
+@import '@style/vars/colors.scss';
+
+.Main__spinner {
+  background-color: transparent;
+
+  border: 4px solid $main-color;
+  border-bottom-color: transparent;
+	border-top-color: transparent;
+}
